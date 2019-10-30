@@ -28,7 +28,7 @@ def plot_traj(car_speed_kph='70',
     x1, y1, theta1 = road_width,total_distance,final_angle
     q1 = (x1, y1, theta1)
     
-    fig,ax = plt.subplots(figsize=(45,40))
+    fig,ax = plt.subplots(figsize=(8,22))
     
     
     ax.plot([circle_center[0],circle_center[0]-min_radius*np.cos(np.pi/2-final_angle)],
